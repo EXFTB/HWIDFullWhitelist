@@ -3,18 +3,9 @@ local HWID = game:GetService("RbxAnalysticsService"):GetClientId()
 
 for i,v in pairs(HWIDTable) do
     if v == HWID then
---script goes here--
-local amount = {"1","2","3","4"}
 
-while true do
-for i,v in pairs(amount) do
-      v = "crash"
-      print(v)
-            end
-        end
-    end
---script goes here--
+else
+while true do end
 end
 
---end of the whitelist
---this is kind of an easy whitelist but yeah
+
